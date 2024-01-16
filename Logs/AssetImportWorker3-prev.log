@@ -1,0 +1,709 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/malik/UnityProjects/Jumper
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62938
+Successfully changed project path to: C:/Users/malik/UnityProjects/Jumper
+C:/Users/malik/UnityProjects/Jumper
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21688] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2252666982 [EditorId] 2252666982 [Version] 1048832 [Id] WindowsEditor(7,Malik-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21688] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2252666982 [EditorId] 2252666982 [Version] 1048832 [Id] WindowsEditor(7,Malik-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 18.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/malik/UnityProjects/Jumper/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017080 seconds.
+- Loaded All Assemblies, in  0.429 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 680ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (255ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\malik\UnityProjects\Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\malik\UnityProjects\Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 7.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1589ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (573ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (258ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 7.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4523 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (135.5 KB). Loaded Objects now: 4991.
+Memory consumption went from 153.6 MB to 153.5 MB.
+Total: 4.417500 ms (FindLiveObjects: 0.513700 ms CreateObjectMapping: 0.450600 ms MarkObjects: 3.278800 ms  DeleteObjects: 0.173000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\malik\UnityProjects\Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\malik\UnityProjects\Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.227 seconds
+Refreshing native plugins compatible for Editor in 12.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.089 seconds
+Domain Reload Profiling: 4309ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (857ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (462ms)
+			TypeCache.Refresh (452ms)
+				TypeCache.ScanAssembly (433ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3090ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (564ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (92ms)
+Refreshing native plugins compatible for Editor in 14.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4498 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 5008.
+Memory consumption went from 147.5 MB to 147.4 MB.
+Total: 5.816600 ms (FindLiveObjects: 0.681100 ms CreateObjectMapping: 0.912900 ms MarkObjects: 4.116800 ms  DeleteObjects: 0.104200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 404653.154751 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_02.png
+  artifactKey: Guid(8bd3f967242f3e242a60feeb90c7b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_02.png using Guid(8bd3f967242f3e242a60feeb90c7b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf0beeb9578e7582d6610ce89e5015d') in 0.099603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.002843 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_05.png
+  artifactKey: Guid(8cb1161cd4b52534ba2ec2922764d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_05.png using Guid(8cb1161cd4b52534ba2ec2922764d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04122f172c03164d1dc0e95b3e9dfcb8') in 0.029422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_04.png
+  artifactKey: Guid(296ac19e2147e67408eed4611d3f93f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_04.png using Guid(296ac19e2147e67408eed4611d3f93f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf01d1c24389d5b5d5bd63c8fc103962') in 0.024374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_06.png
+  artifactKey: Guid(5570ce90349bcee48ad72f984407eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_06.png using Guid(5570ce90349bcee48ad72f984407eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cfaa2566b289a173e5dce03d849c8d') in 0.020592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/potion.png
+  artifactKey: Guid(98451d2a04ae2b54a9ec0ff4bc429fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/potion.png using Guid(98451d2a04ae2b54a9ec0ff4bc429fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250378117b1662b383f86c639387247f') in 0.018164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_03.png
+  artifactKey: Guid(75a3e049c8703dd4c8c520102a77bd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_03.png using Guid(75a3e049c8703dd4c8c520102a77bd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e63b2aaa40bd6a51db6352603e9fe5') in 0.017709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_06.png
+  artifactKey: Guid(4cb7b9b52e6ff634d996fa09d0a74305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_06.png using Guid(4cb7b9b52e6ff634d996fa09d0a74305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad1caf9f04f37026b04decaa6c86af1') in 0.015306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_02.png
+  artifactKey: Guid(a8a81f7163fa29442b63b47d751d64dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_02.png using Guid(a8a81f7163fa29442b63b47d751d64dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c54efd296cd8d18ded998a9fb3b0f8a') in 0.018848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.180891 seconds.
+  path: Assets/Knight Files/Body Parts/body upper.png
+  artifactKey: Guid(131afc7c0c638d24f92ba75ccdab2b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/body upper.png using Guid(131afc7c0c638d24f92ba75ccdab2b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01401f8bb896894234bedc28a68cd4f') in 0.018681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Knight Files/Body Parts/Left Arm.png
+  artifactKey: Guid(79bfc252d4b629e42aae89f50be095af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Left Arm.png using Guid(79bfc252d4b629e42aae89f50be095af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5d522021056aabe017271d6b53378c') in 0.021098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Knight Files/Body Parts/Head.png
+  artifactKey: Guid(e480585590b117443974744d58ee2162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Head.png using Guid(e480585590b117443974744d58ee2162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b67e9495c9a0111c9cff8b25d42aca') in 0.020229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Knight Files/Body Parts/Legs 2.png
+  artifactKey: Guid(6292182f2b4ccd24bb2b316d0da5658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Legs 2.png using Guid(6292182f2b4ccd24bb2b316d0da5658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bed1baed7a99bee22bb95c478ed8518') in 0.017591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 26.081729 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_03.png
+  artifactKey: Guid(0ffdf19da652afe48a12609e61ed7b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_03.png using Guid(0ffdf19da652afe48a12609e61ed7b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a9726489ac73540457991d45ace9bd') in 0.017233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_block_02.png
+  artifactKey: Guid(276de7332cc176343be57d605b70bdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_block_02.png using Guid(276de7332cc176343be57d605b70bdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7000ab5a092abc1cf1eaf20ea5ee2930') in 0.013320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_04.png
+  artifactKey: Guid(20eaf3352119b4a498d894619016f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_04.png using Guid(20eaf3352119b4a498d894619016f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63c1633608457b91ab47e0f3ef47d42') in 0.019220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_block_04.png
+  artifactKey: Guid(18ffd7c532c870c4d8ac5bfa7f53be4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_block_04.png using Guid(18ffd7c532c870c4d8ac5bfa7f53be4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b8fce01e0301de41df99dc9c717955') in 0.022797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dash_03.png
+  artifactKey: Guid(44301e48dd6a11e4d985f5846d6c89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dash_03.png using Guid(44301e48dd6a11e4d985f5846d6c89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cc5b1eff3b5d185ad92981c105f91a') in 0.022798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_cast_01.png
+  artifactKey: Guid(b97711f6951c24245aed6bfb9608d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_cast_01.png using Guid(b97711f6951c24245aed6bfb9608d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9eac883066b15ecb8b7e9e88fb6d63') in 0.022113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_block_01.png
+  artifactKey: Guid(5cfc8e09a9a6be647958e6f33e5337d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_block_01.png using Guid(5cfc8e09a9a6be647958e6f33e5337d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b822e00c7e2788e23d2845f06cc23326') in 0.019575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_05.png
+  artifactKey: Guid(2d634060b61eb214a949fcd4b88122d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_05.png using Guid(2d634060b61eb214a949fcd4b88122d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772408ed57bd65c10210dff62484b3d3') in 0.019838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_cast_02.png
+  artifactKey: Guid(e0ee6519b33fbfb408dffd97edee7ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_cast_02.png using Guid(e0ee6519b33fbfb408dffd97edee7ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4ec5e3f3a69fae2eac64e3f2a13fdb') in 0.025284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_cast_04.png
+  artifactKey: Guid(75fdd5fab73368241af6833a5b8a660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_cast_04.png using Guid(75fdd5fab73368241af6833a5b8a660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a0b149ba1a744d3a37171a2c7fe273') in 0.047865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.508257 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dizzy_01.png
+  artifactKey: Guid(5727589126812804db2743e7f3c13bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dizzy_01.png using Guid(5727589126812804db2743e7f3c13bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd33421568bb06cc136edc765142daac') in 0.018128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dizzy_02.png
+  artifactKey: Guid(6ed4d5bbba75aa94c908353149559cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dizzy_02.png using Guid(6ed4d5bbba75aa94c908353149559cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048d1a287d51de59ce039e2d3afa7836') in 0.022255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.299869 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_04.png
+  artifactKey: Guid(7425003c38c00d144af86a40ba87c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_04.png using Guid(7425003c38c00d144af86a40ba87c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd998e6d82b94cda0af2e73efe6ae3f') in 0.017733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_06.png
+  artifactKey: Guid(d0fc8c27bd2d9d44e88e8a240ad8f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_06.png using Guid(d0fc8c27bd2d9d44e88e8a240ad8f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989a83da44be04d6a244fc620e50dad3') in 0.015411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.599571 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_04.png
+  artifactKey: Guid(7501c2124347b9a45b253375ee5f55f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_04.png using Guid(7501c2124347b9a45b253375ee5f55f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a608ed42308cccad7b66a04a7f0782') in 0.012767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_05.png
+  artifactKey: Guid(287f6e82c01296746998b61fb7e842da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_05.png using Guid(287f6e82c01296746998b61fb7e842da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf36d5c1891c0807e8d84cffc97a690') in 0.018103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_strike_03.png
+  artifactKey: Guid(430ad9be76f3bc944b3cf1698ac12cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_strike_03.png using Guid(430ad9be76f3bc944b3cf1698ac12cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01998ff9708f40ee8519785d2489bbb3') in 0.016487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006653 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_03.png
+  artifactKey: Guid(bde3991f219560149aecb109a8aea6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_03.png using Guid(bde3991f219560149aecb109a8aea6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900a55fa6b7b684135c0fa0c227600cb') in 0.014452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_04.png
+  artifactKey: Guid(5f35e0dbf73e2bd4bb8189fcd03962b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_04.png using Guid(5f35e0dbf73e2bd4bb8189fcd03962b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4126ec8be8526e651bb03e2579afdf50') in 0.016038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_06.png
+  artifactKey: Guid(969fce9da2f69834182f5618b7ec2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_06.png using Guid(969fce9da2f69834182f5618b7ec2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfae2384d085d586d143a5bf6016a70') in 0.018094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 260.635882 seconds.
+  path: Assets/Animation/Knight PNG/Knight_attack_02.png
+  artifactKey: Guid(5dab1418fee1db34780e0b5cf23732c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_attack_02.png using Guid(5dab1418fee1db34780e0b5cf23732c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263d1a4418084069ec041521b58c1929') in 0.016893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.032133 seconds.
+  path: Assets/Animation/Knight PNG/Knight_attack_03.png
+  artifactKey: Guid(6039c3ce12768ec45ac5034c2096725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_attack_03.png using Guid(6039c3ce12768ec45ac5034c2096725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b116bdc7fe923c1948b3716892d69904') in 0.021598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animation/Knight PNG/Knight_die_02.png
+  artifactKey: Guid(947da21a18c7b8b4d8932c81af251612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_die_02.png using Guid(947da21a18c7b8b4d8932c81af251612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722b8d50c0192d47721bc57cca558949') in 0.026274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animation/Knight PNG/Knight_die_06.png
+  artifactKey: Guid(e880cd5c3b1d55841b1e528dba1a99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_die_06.png using Guid(e880cd5c3b1d55841b1e528dba1a99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98657ca7d12736d8e6a14ab6fec70250') in 0.019243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Animation/Knight PNG/Knight_die_01.png
+  artifactKey: Guid(1da6404463da42c449aed708d9fe48a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_die_01.png using Guid(1da6404463da42c449aed708d9fe48a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424864d19624b9ae96881eea1b995efb') in 0.015196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Animation/Knight PNG/Knight_crouch_0.png
+  artifactKey: Guid(258b42fb1c6c6b94995d602b6252c19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_crouch_0.png using Guid(258b42fb1c6c6b94995d602b6252c19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a410576c357debafff3f9bf89fbdaac') in 0.016090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Animation/Knight PNG/Knight_cast_05.png
+  artifactKey: Guid(c250e18a7cff0804e95f59e3d1448611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_cast_05.png using Guid(c250e18a7cff0804e95f59e3d1448611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a223632905dc53b9d3eaf415dde8b80') in 0.025446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animation/Knight PNG/Knight_dash_01.png
+  artifactKey: Guid(2d713a4a0ce590c459ac42f50bb7e901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_dash_01.png using Guid(2d713a4a0ce590c459ac42f50bb7e901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc98b197542836d1eefb959d772a611') in 0.021013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animation/Knight PNG/Knight_die_05.png
+  artifactKey: Guid(ae00a7dd5be3d2e4280e34e6d837b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_die_05.png using Guid(ae00a7dd5be3d2e4280e34e6d837b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3611975e46aed785289c9275440f81da') in 0.015086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animation/Knight PNG/Knight_cast_03.png
+  artifactKey: Guid(6128ef3b7a85dfb4dbd6052a2f97d451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_cast_03.png using Guid(6128ef3b7a85dfb4dbd6052a2f97d451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a3b839adf1cd56f8c8c3a1864253c1') in 0.019543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Animation/Knight PNG/Knight_block_03.png
+  artifactKey: Guid(bc4e8dad6c9258741b62aa89d32412f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_block_03.png using Guid(bc4e8dad6c9258741b62aa89d32412f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec8a338b1898e78316d2f90488508ba') in 0.016039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animation/Knight PNG/Knight_block_02.png
+  artifactKey: Guid(737dbfec810ed5c41ab0919e475d046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_block_02.png using Guid(737dbfec810ed5c41ab0919e475d046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7df23e4006b553ddf897c3f18b35f83') in 0.017763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animation/Knight PNG/Knight_attack_05.png
+  artifactKey: Guid(01e4e4d2871591e46805f0d0948d2f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_attack_05.png using Guid(01e4e4d2871591e46805f0d0948d2f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573625596d146b7cb8b686b92b94a341') in 0.016543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.971104 seconds.
+  path: Assets/Animation/Knight PNG/Knight_walk_01.png
+  artifactKey: Guid(00855fcd95bd55d40a3c91540bc9b917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_walk_01.png using Guid(00855fcd95bd55d40a3c91540bc9b917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c930ff2df32ee2aeb660e2f29a2398d') in 0.030937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animation/Knight PNG/Knight_walk_03.png
+  artifactKey: Guid(29ea60bbff03585478ef4c5a02be3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_walk_03.png using Guid(29ea60bbff03585478ef4c5a02be3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e42790f28632fab7be8e261cfaa3b38') in 0.019225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Animation/Knight PNG/Knight_walk_05.png
+  artifactKey: Guid(c3f815cc9e9c7b641a4f6d97990fbea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_walk_05.png using Guid(c3f815cc9e9c7b641a4f6d97990fbea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03be8457eaecee579b93dcefdd0d1d3') in 0.018478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animation/Knight PNG/Knight_win_01.png
+  artifactKey: Guid(3171bb920cf477c459f5feceb9ca89d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_win_01.png using Guid(3171bb920cf477c459f5feceb9ca89d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6872b195a91d62812521344797500e41') in 0.023968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.004388 seconds.
+  path: Assets/Animation/Knight PNG/Knight_jumpAttack_02.png
+  artifactKey: Guid(8e916e1d4c0b25d439c6972bc4add4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_jumpAttack_02.png using Guid(8e916e1d4c0b25d439c6972bc4add4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3d54d8d9342e8388abfb86ba9081ed') in 0.013832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Animation/Knight PNG/Knight_jumpAttack_04.png
+  artifactKey: Guid(73540a02e0cfc7b489ef7ac5519c6baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_jumpAttack_04.png using Guid(73540a02e0cfc7b489ef7ac5519c6baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbf883203e09f9fba2d190875c3aaae') in 0.019784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animation/Knight PNG/Knight_jumpAttack_06.png
+  artifactKey: Guid(f6f3751c6ea9d9f48aae339c0e993053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_jumpAttack_06.png using Guid(f6f3751c6ea9d9f48aae339c0e993053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6eebf517e10a6dfaa988a0bd38945f') in 0.016838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.951240 seconds.
+  path: Assets/Animation/Knight PNG/Knight_die_08.png
+  artifactKey: Guid(47f4ec2473a99234098656e712587424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_die_08.png using Guid(47f4ec2473a99234098656e712587424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36e2b4ea6c0dfde354425e889598bb9') in 0.020663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animation/Knight PNG/Knight_hurt_01.png
+  artifactKey: Guid(f0c9317652d157f4f8b168cbb8598bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_hurt_01.png using Guid(f0c9317652d157f4f8b168cbb8598bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16be2115492aee821deba623f46c266b') in 0.025933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Animation/Knight PNG/Knight_dizzy_03.png
+  artifactKey: Guid(024cfacecc8df1e4eb80ed7b2de2ab2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_dizzy_03.png using Guid(024cfacecc8df1e4eb80ed7b2de2ab2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9bb7bbc02cf2798886ab0e8b3fc939') in 0.028668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.365487 seconds.
+  path: Assets/Animation/Knight PNG/Knight_idle_03.png
+  artifactKey: Guid(d5dec7806aa3a0f4fa749cd12f96251a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_idle_03.png using Guid(d5dec7806aa3a0f4fa749cd12f96251a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010d31867dfe4f7f52809ebf22aa54e7') in 0.017414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animation/Knight PNG/Knight_jump_01.png
+  artifactKey: Guid(857f2528f37afac41bbe54733e7377b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Knight PNG/Knight_jump_01.png using Guid(857f2528f37afac41bbe54733e7377b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd972702cf4625970df1fb726c9c2d617') in 0.020234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
